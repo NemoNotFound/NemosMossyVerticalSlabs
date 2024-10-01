@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "nemos-mossy-vertical-slabs:block/mossy_cherry_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "nemos-mossy-blocks:block/mossy_cherry_planks"
+    },
+    "type=front": {
+      "model": "nemos-mossy-vertical-slabs:block/mossy_cherry_vertical_slab"
+    },
+    "type=left": {
+      "model": "nemos-mossy-vertical-slabs:block/mossy_cherry_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "nemos-mossy-vertical-slabs:block/mossy_cherry_vertical_slab_right"
+    }
+  }
+}
