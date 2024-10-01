@@ -9,7 +9,7 @@ Nemo's Mossy Vertical Slabs is an addon for [Nemo's Vertical Slabs](https://curs
 <br>
 
 I love to create mods for Minecraft and wish to live off it one day, so I hope you like what I do. <br>
-Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosVerticalSlabs/discussions/) :)
+Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosMossyVerticalSlabs/discussions/) :)
 <br>
 For more information and the recipes check the [wiki](https://www.nemonotfound.com/minecraft-mods/nemos-mossy-vertical-slabs/wiki).
 
