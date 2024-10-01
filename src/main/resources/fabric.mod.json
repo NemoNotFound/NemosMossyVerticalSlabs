@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "nemos-mossy-vertical-slabs",
+	"version": "${version}",
+	"name": "Nemo's Mossy Vertical Slabs",
+	"description": "An addon for Nemo's Vertical Slabs!",
+	"authors": [
+		"NemoNotFound"
+	],
+	"contact": {
+		"homepage": "https://nemonotfound.com/",
+		"sources": "https://github.com/NemoNotFound/NemosMossyVerticalSlabs"
+	},
+	"license": "MIT",
+	"icon": "assets/nemos-mossy-vertical-slabs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabs"
+		],
+		"client": [
+			"com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabsClient"
+		],
+		"fabric-datagen": [
+			"com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabsDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"nemos-vertical-slabs": ">=1.1-1.21.1",
+		"nemos-mossy-blocks": ">=1.5-1.21.1"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
