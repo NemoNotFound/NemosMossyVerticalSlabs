@@ -2,7 +2,7 @@
 <br><br>
 
 # Description
-Nemo's Mossy Vertical Slabs is an addon for [Nemo's Vertical Slabs](https://curseforge.com/minecraft/mc-mods/nemos-vertical-slabs). <br>
+Nemo's Mossy Vertical Slabs is an add-on for [Nemo's Vertical Slabs](https://curseforge.com/minecraft/mc-mods/nemos-vertical-slabs) and adds mossy vertical slabs for the blocks from [Nemo's Mossy Blocks](https://curseforge.com/minecraft/mc-mods/nemos-mossy-blocks). <br>
 
 [![Join my Discord](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/svg/join_discord_button.svg?raw=true)](https://discord.com/invite/yxs9dga)
 <br>
