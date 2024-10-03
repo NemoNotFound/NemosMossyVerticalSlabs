@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:stone"
+    "item": "nemos-mossy-blocks:mossy_stone"
   },
   "result": {
     "count": 1,

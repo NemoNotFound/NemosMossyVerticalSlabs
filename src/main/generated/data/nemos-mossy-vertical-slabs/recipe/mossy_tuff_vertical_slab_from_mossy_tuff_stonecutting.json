@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "nemos-mossy-blocks:mossy_tuff"
+  },
+  "result": {
+    "count": 1,
+    "id": "nemos-mossy-vertical-slabs:mossy_tuff_vertical_slab"
+  }
+}

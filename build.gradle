@@ -25,7 +25,9 @@ repositories {
 }
 
 fabricApi {
-	configureDataGeneration()
+	configureDataGeneration {
+		modId = "${archives_base_name}"
+	}
 }
 
 dependencies {

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "nemos-mossy-blocks:mossy_cobbled_deepslate"
+  },
+  "result": {
+    "count": 1,
+    "id": "nemos-mossy-vertical-slabs:mossy_cobbled_deepslate_vertical_slab"
+  }
+}

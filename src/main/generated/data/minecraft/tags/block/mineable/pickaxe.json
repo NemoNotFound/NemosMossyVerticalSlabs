@@ -1,6 +1,11 @@
 {
   "values": [
     "nemos-mossy-vertical-slabs:mossy_stone_vertical_slab",
+    "nemos-mossy-vertical-slabs:mossy_cobbled_deepslate_vertical_slab",
+    "nemos-mossy-vertical-slabs:mossy_deepslate_brick_vertical_slab",
+    "nemos-mossy-vertical-slabs:mossy_deepslate_tile_vertical_slab",
+    "nemos-mossy-vertical-slabs:mossy_tuff_vertical_slab",
+    "nemos-mossy-vertical-slabs:mossy_tuff_brick_vertical_slab",
     "nemos-mossy-vertical-slabs:mossy_brick_vertical_slab"
   ]
 }

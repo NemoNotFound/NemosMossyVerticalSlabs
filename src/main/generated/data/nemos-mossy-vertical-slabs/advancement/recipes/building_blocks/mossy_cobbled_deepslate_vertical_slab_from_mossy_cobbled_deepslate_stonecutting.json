@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bricks": {
+    "has_mossy_cobbled_deepslate": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bricks"
+            "items": "nemos-mossy-blocks:mossy_cobbled_deepslate"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mossy_brick_vertical_slab_from_bricks_stonecutting"
+        "recipe": "minecraft:mossy_cobbled_deepslate_vertical_slab_from_mossy_cobbled_deepslate_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_bricks"
+      "has_mossy_cobbled_deepslate"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mossy_brick_vertical_slab_from_bricks_stonecutting"
+      "minecraft:mossy_cobbled_deepslate_vertical_slab_from_mossy_cobbled_deepslate_stonecutting"
     ]
   }
 }

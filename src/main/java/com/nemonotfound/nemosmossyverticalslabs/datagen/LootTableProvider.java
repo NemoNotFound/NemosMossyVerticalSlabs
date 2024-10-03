@@ -39,6 +39,11 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
         this.add(ModBlocks.MOSSY_WARPED_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_WARPED_VERTICAL_SLAB));
         this.add(ModBlocks.MOSSY_STONE_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_STONE_VERTICAL_SLAB));
         this.add(ModBlocks.MOSSY_BRICK_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_BRICK_VERTICAL_SLAB));
+        this.add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB));
+        this.add(ModBlocks.MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB));
+        this.add(ModBlocks.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB));
+        this.add(ModBlocks.MOSSY_TUFF_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_TUFF_VERTICAL_SLAB));
+        this.add(ModBlocks.MOSSY_TUFF_BRICK_VERTICAL_SLAB, slabDrops(ModBlocks.MOSSY_TUFF_BRICK_VERTICAL_SLAB));
     }
 
     public LootTable.Builder slabDrops(Block drop) {

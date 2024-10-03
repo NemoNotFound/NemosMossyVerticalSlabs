@@ -28,6 +28,11 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MOSSY_CRIMSON_VERTICAL_SLAB, "Mossy Crimson Vertical Slab");
         translationBuilder.add(ModBlocks.MOSSY_WARPED_VERTICAL_SLAB, "Mossy Warped Vertical Slab");
         translationBuilder.add(ModBlocks.MOSSY_STONE_VERTICAL_SLAB, "Mossy Stone Vertical Slab");
+        translationBuilder.add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB, "Mossy Cobbled Deepslate Vertical Slab");
+        translationBuilder.add(ModBlocks.MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB, "Mossy Deepslate Brick Vertical Slab");
+        translationBuilder.add(ModBlocks.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB, "Mossy Deepslate Tile Vertical Slab");
+        translationBuilder.add(ModBlocks.MOSSY_TUFF_VERTICAL_SLAB, "Mossy Tuff Vertical Slab");
+        translationBuilder.add(ModBlocks.MOSSY_TUFF_BRICK_VERTICAL_SLAB, "Mossy Tuff Brick Vertical Slab");
         translationBuilder.add(ModBlocks.MOSSY_BRICK_VERTICAL_SLAB, "Mossy Brick Vertical Slab");
     }
 }

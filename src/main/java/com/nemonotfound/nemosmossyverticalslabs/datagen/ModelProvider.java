@@ -13,7 +13,6 @@ import net.minecraft.data.models.model.TextureMapping;
 import net.minecraft.data.models.model.TextureSlot;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 
 import static com.nemonotfound.nemosmossyblocks.block.ModBlocks.*;
 
@@ -38,8 +37,12 @@ public class ModelProvider extends FabricModelProvider {
         generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_CRIMSON_PLANKS, ModBlocks.MOSSY_CRIMSON_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_WARPED_PLANKS, ModBlocks.MOSSY_WARPED_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_STONE, ModBlocks.MOSSY_STONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_COBBLED_DEEPSLATE, ModBlocks.MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_DEEPSLATE_BRICKS, ModBlocks.MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_DEEPSLATE_TILES, ModBlocks.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_TUFF, ModBlocks.MOSSY_TUFF_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_TUFF_BRICKS, ModBlocks.MOSSY_TUFF_BRICK_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockModelGenerators, MOSSY_BRICKS, ModBlocks.MOSSY_BRICK_VERTICAL_SLAB);
-
     }
 
     @Override

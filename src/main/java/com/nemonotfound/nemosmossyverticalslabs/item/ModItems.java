@@ -27,6 +27,11 @@ public class ModItems {
     public static final Item MOSSY_WARPED_VERTICAL_SLAB = registerBlockItem("mossy_warped_vertical_slab", ModBlocks.MOSSY_WARPED_VERTICAL_SLAB);
     public static final Item MOSSY_STONE_VERTICAL_SLAB = registerBlockItem("mossy_stone_vertical_slab", ModBlocks.MOSSY_STONE_VERTICAL_SLAB);
     public static final Item MOSSY_BRICK_VERTICAL_SLAB = registerBlockItem("mossy_brick_vertical_slab", ModBlocks.MOSSY_BRICK_VERTICAL_SLAB);
+    public static final Item MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB = registerBlockItem("mossy_cobbled_deepslate_vertical_slab", ModBlocks.MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
+    public static final Item MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB = registerBlockItem("mossy_deepslate_brick_vertical_slab", ModBlocks.MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
+    public static final Item MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = registerBlockItem("mossy_deepslate_tile_vertical_slab", ModBlocks.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
+    public static final Item MOSSY_TUFF_VERTICAL_SLAB = registerBlockItem("mossy_tuff_vertical_slab", ModBlocks.MOSSY_TUFF_VERTICAL_SLAB);
+    public static final Item MOSSY_TUFF_BRICK_VERTICAL_SLAB = registerBlockItem("mossy_tuff_brick_vertical_slab", ModBlocks.MOSSY_TUFF_BRICK_VERTICAL_SLAB);
 
     public static void registerItems() {
         log.info("Registering items");

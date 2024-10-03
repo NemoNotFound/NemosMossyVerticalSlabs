@@ -37,6 +37,11 @@ public class ModCreativeModeTabs {
                     entries.accept(ModItems.MOSSY_CRIMSON_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_WARPED_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_STONE_VERTICAL_SLAB);
+                    entries.accept(ModItems.MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
+                    entries.accept(ModItems.MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
+                    entries.accept(ModItems.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
+                    entries.accept(ModItems.MOSSY_TUFF_VERTICAL_SLAB);
+                    entries.accept(ModItems.MOSSY_TUFF_BRICK_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_BRICK_VERTICAL_SLAB);
                 })
                 .build();

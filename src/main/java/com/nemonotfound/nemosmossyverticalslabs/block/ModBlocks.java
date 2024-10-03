@@ -39,6 +39,16 @@ public class ModBlocks {
             new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(WARPED_SLAB)));
     public static final Block MOSSY_STONE_VERTICAL_SLAB = registerBlock("mossy_stone_vertical_slab",
             new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(STONE_SLAB)));
+    public static final Block MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB = registerBlock("mossy_cobbled_deepslate_vertical_slab",
+            new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(COBBLED_DEEPSLATE_SLAB)));
+    public static final Block MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB = registerBlock("mossy_deepslate_brick_vertical_slab",
+            new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(DEEPSLATE_BRICK_SLAB)));
+    public static final Block MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = registerBlock("mossy_deepslate_tile_vertical_slab",
+            new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(DEEPSLATE_TILE_SLAB)));
+    public static final Block MOSSY_TUFF_VERTICAL_SLAB = registerBlock("mossy_tuff_vertical_slab",
+            new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(TUFF_SLAB)));
+    public static final Block MOSSY_TUFF_BRICK_VERTICAL_SLAB = registerBlock("mossy_tuff_brick_vertical_slab",
+            new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(TUFF_BRICK_SLAB)));
     public static final Block MOSSY_BRICK_VERTICAL_SLAB = registerBlock("mossy_brick_vertical_slab",
             new VerticalSlabBlock(BlockBehaviour.Properties.ofFullCopy(BRICK_SLAB)));
 

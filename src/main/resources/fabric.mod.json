@@ -34,7 +34,7 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"nemos-vertical-slabs": ">=1.1-1.21.1",
-		"nemos-mossy-blocks": ">=1.5-1.21.1"
+		"nemos-mossy-blocks": ">=1.6-1.21.1"
 	},
 	"suggests": {
 		"another-mod": "*"

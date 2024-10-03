@@ -32,6 +32,11 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.MOSSY_STONE_VERTICAL_SLAB)
+                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB)
+                .add(ModBlocks.MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB)
+                .add(ModBlocks.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB)
+                .add(ModBlocks.MOSSY_TUFF_VERTICAL_SLAB)
+                .add(ModBlocks.MOSSY_TUFF_BRICK_VERTICAL_SLAB)
                 .add(ModBlocks.MOSSY_BRICK_VERTICAL_SLAB);
     }
 }

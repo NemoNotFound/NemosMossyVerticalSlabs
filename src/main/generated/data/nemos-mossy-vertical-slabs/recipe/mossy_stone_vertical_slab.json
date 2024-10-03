@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:stone"
+      "item": "nemos-mossy-blocks:mossy_stone"
     }
   },
   "pattern": [
