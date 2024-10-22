@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "nemos-mossy-blocks:mossy_cobbled_deepslate"
-    }
+    "#": "nemos-mossy-blocks:mossy_cobbled_deepslate"
   },
   "pattern": [
     "#",

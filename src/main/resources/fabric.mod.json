@@ -28,13 +28,12 @@
 	"depends": {
 		"fabricloader": ">=0.16.5",
 		"minecraft": [
-			"~1.21.1",
-			"~1.21"
+			"~1.21.2"
 		],
 		"java": ">=21",
 		"fabric-api": "*",
-		"nemos-vertical-slabs": ">=1.1-1.21.1",
-		"nemos-mossy-blocks": ">=1.6-1.21.1"
+		"nemos-vertical-slabs": ">=1.1.1-1.21.2",
+		"nemos-mossy-blocks": ">=1.6-1.21.2"
 	},
 	"suggests": {
 		"another-mod": "*"

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "nemos-mossy-blocks:mossy_deepslate_tiles"
-  },
+  "ingredient": "nemos-mossy-blocks:mossy_deepslate_tiles",
   "result": {
     "count": 1,
     "id": "nemos-mossy-vertical-slabs:mossy_deepslate_tile_vertical_slab"

@@ -3,9 +3,7 @@
   "category": "building",
   "group": "wooden_mossy_vertical_slabs",
   "key": {
-    "#": {
-      "item": "nemos-mossy-blocks:mossy_bamboo_mosaic"
-    }
+    "#": "nemos-mossy-blocks:mossy_bamboo_mosaic"
   },
   "pattern": [
     "#",
