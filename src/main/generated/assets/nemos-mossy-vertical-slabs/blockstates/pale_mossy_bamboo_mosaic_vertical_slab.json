@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "nemos-mossy-vertical-slabs:block/pale_mossy_bamboo_mosaic_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "nemos-mossy-blocks:block/pale_mossy_bamboo_mosaic"
+    },
+    "type=front": {
+      "model": "nemos-mossy-vertical-slabs:block/pale_mossy_bamboo_mosaic_vertical_slab"
+    },
+    "type=left": {
+      "model": "nemos-mossy-vertical-slabs:block/pale_mossy_bamboo_mosaic_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "nemos-mossy-vertical-slabs:block/pale_mossy_bamboo_mosaic_vertical_slab_right"
+    }
+  }
+}

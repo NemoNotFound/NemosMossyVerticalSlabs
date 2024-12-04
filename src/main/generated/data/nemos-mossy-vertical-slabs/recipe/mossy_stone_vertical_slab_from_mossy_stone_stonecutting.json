@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "nemos-mossy-blocks:mossy_stone",
   "result": {
-    "count": 1,
+    "count": 2,
     "id": "nemos-mossy-vertical-slabs:mossy_stone_vertical_slab"
   }
 }

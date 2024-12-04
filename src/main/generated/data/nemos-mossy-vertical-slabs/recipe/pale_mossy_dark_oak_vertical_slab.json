@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_mossy_vertical_slabs",
+  "key": {
+    "#": "nemos-mossy-blocks:pale_mossy_dark_oak_planks"
+  },
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos-mossy-vertical-slabs:pale_mossy_dark_oak_vertical_slab"
+  }
+}

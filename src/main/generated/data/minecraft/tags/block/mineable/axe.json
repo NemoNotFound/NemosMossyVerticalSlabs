@@ -8,9 +8,23 @@
     "nemos-mossy-vertical-slabs:mossy_dark_oak_vertical_slab",
     "nemos-mossy-vertical-slabs:mossy_mangrove_vertical_slab",
     "nemos-mossy-vertical-slabs:mossy_cherry_vertical_slab",
+    "nemos-mossy-vertical-slabs:mossy_pale_oak_vertical_slab",
     "nemos-mossy-vertical-slabs:mossy_bamboo_vertical_slab",
     "nemos-mossy-vertical-slabs:mossy_bamboo_mosaic_vertical_slab",
     "nemos-mossy-vertical-slabs:mossy_crimson_vertical_slab",
-    "nemos-mossy-vertical-slabs:mossy_warped_vertical_slab"
+    "nemos-mossy-vertical-slabs:mossy_warped_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_oak_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_spruce_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_birch_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_jungle_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_acacia_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_dark_oak_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_mangrove_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_cherry_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_pale_oak_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_bamboo_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_bamboo_mosaic_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_crimson_vertical_slab",
+    "nemos-mossy-vertical-slabs:pale_mossy_warped_vertical_slab"
   ]
 }
