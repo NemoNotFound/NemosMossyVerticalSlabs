@@ -1,8 +1,8 @@
-package com.nemonotfound.nemosmossyverticalslabs;
+package com.nemonotfound.nemos.mossy.vertical.slabs;
 
-import com.nemonotfound.nemosmossyverticalslabs.block.ModBlocks;
-import com.nemonotfound.nemosmossyverticalslabs.item.ModCreativeModeTabs;
-import com.nemonotfound.nemosmossyverticalslabs.item.ModItems;
+import com.nemonotfound.nemos.mossy.vertical.slabs.block.ModBlocks;
+import com.nemonotfound.nemos.mossy.vertical.slabs.item.ModCreativeModeTabs;
+import com.nemonotfound.nemos.mossy.vertical.slabs.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

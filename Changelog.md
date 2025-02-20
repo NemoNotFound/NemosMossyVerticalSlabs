@@ -1,8 +1,4 @@
-# Changelog v1.2
-
-## Additions
-- Added mossy pale oak vertical slab
-- Added pale-mossy vertical slabs
+# Changelog v1.2.1
 
 ## Changes
-- Stonecutting recipes now return two vertical slabs
+- Added compatibility to latest vertical slabs versions

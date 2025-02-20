@@ -1,4 +1,4 @@
-package com.nemonotfound.nemosmossyverticalslabs.item;
+package com.nemonotfound.nemos.mossy.vertical.slabs.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
@@ -9,7 +9,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 import static com.nemonotfound.nemosmossyblocks.NemosMossyBlocks.MOD_ID;
-import static com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabs.log;
+import static com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabs.log;
 
 public class ModCreativeModeTabs {
 

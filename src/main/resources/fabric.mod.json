@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabs"
+			"com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabs"
 		],
 		"client": [
-			"com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabsClient"
+			"com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabsClient"
 		],
 		"fabric-datagen": [
-			"com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabsDataGenerator"
+			"com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabsDataGenerator"
 		]
 	},
 	"depends": {
@@ -32,8 +32,8 @@
 		],
 		"java": ">=21",
 		"fabric-api": "*",
-		"nemos-vertical-slabs": ">=1.21.4-1.2",
-		"nemos-mossy-blocks": ">=1.7-1.21.4"
+		"nemos-vertical-slabs": ">=1.21.4-1.2.2",
+		"nemos-mossy-blocks": ">=1.7.1-1.21.4"
 	},
 	"suggests": {
 		"another-mod": "*"

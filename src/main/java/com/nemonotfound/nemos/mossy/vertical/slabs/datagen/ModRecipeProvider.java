@@ -1,7 +1,7 @@
-package com.nemonotfound.nemosmossyverticalslabs.datagen;
+package com.nemonotfound.nemos.mossy.vertical.slabs.datagen;
 
 import com.nemonotfound.nemosmossyblocks.tag.ModItemTags;
-import com.nemonotfound.nemosmossyverticalslabs.item.ModItems;
+import com.nemonotfound.nemos.mossy.vertical.slabs.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.core.HolderLookup;
@@ -23,7 +23,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
     @Override
-    protected RecipeProvider createRecipeProvider(HolderLookup.Provider provider, RecipeOutput recipeOutput) {
+    protected @NotNull RecipeProvider createRecipeProvider(HolderLookup.Provider provider, RecipeOutput recipeOutput) {
         return new RecipeProvider(provider, recipeOutput) {
             @Override
             public void buildRecipes() {

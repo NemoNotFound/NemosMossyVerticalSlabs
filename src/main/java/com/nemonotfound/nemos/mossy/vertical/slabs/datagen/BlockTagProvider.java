@@ -1,6 +1,6 @@
-package com.nemonotfound.nemosmossyverticalslabs.datagen;
+package com.nemonotfound.nemos.mossy.vertical.slabs.datagen;
 
-import com.nemonotfound.nemosmossyverticalslabs.block.ModBlocks;
+import com.nemonotfound.nemos.mossy.vertical.slabs.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;

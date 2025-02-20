@@ -1,6 +1,6 @@
-package com.nemonotfound.nemosmossyverticalslabs;
+package com.nemonotfound.nemos.mossy.vertical.slabs;
 
-import com.nemonotfound.nemosmossyverticalslabs.block.ModBlocks;
+import com.nemonotfound.nemos.mossy.vertical.slabs.block.ModBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.renderer.RenderType;

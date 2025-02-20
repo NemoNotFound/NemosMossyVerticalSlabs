@@ -1,9 +1,9 @@
-package com.nemonotfound.nemosmossyverticalslabs.datagen;
+package com.nemonotfound.nemos.mossy.vertical.slabs.datagen;
 
-import com.nemonotfound.nemosmossyverticalslabs.block.ModBlocks;
-import com.nemonotfound.nemosverticalslabs.block.enums.VerticalSlabType;
-import com.nemonotfound.nemosverticalslabs.datagen.ModModels;
-import com.nemonotfound.nemosverticalslabs.property.ModProperties;
+import com.nemonotfound.nemos.mossy.vertical.slabs.block.ModBlocks;
+import com.nemonotfound.nemos.vertical.slabs.block.enums.VerticalSlabType;
+import com.nemonotfound.nemos.vertical.slabs.datagen.ModModels;
+import com.nemonotfound.nemos.vertical.slabs.property.ModProperties;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;

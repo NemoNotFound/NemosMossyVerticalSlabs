@@ -1,6 +1,6 @@
-package com.nemonotfound.nemosmossyverticalslabs.block;
+package com.nemonotfound.nemos.mossy.vertical.slabs.block;
 
-import com.nemonotfound.nemosverticalslabs.block.VerticalSlabBlock;
+import com.nemonotfound.nemos.vertical.slabs.block.VerticalSlabBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -10,8 +10,8 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 
 import java.util.function.Function;
 
-import static com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabs.MOD_ID;
-import static com.nemonotfound.nemosmossyverticalslabs.NemosMossyVerticalSlabs.log;
+import static com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabs.MOD_ID;
+import static com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabs.log;
 import static net.minecraft.world.level.block.Blocks.*;
 
 public class ModBlocks {
