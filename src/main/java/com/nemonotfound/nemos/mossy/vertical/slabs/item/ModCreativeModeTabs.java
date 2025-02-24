@@ -32,7 +32,6 @@ public class ModCreativeModeTabs {
                     entries.accept(ModItems.MOSSY_DARK_OAK_VERTICAL_SLAB);
                     entries.accept( ModItems.MOSSY_MANGROVE_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_CHERRY_VERTICAL_SLAB);
-                    entries.accept(ModItems.MOSSY_PALE_OAK_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_BAMBOO_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -44,26 +43,6 @@ public class ModCreativeModeTabs {
                     entries.accept(ModItems.MOSSY_TUFF_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_TUFF_BRICK_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_BRICK_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_OAK_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_SPRUCE_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_BIRCH_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_JUNGLE_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_ACACIA_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_DARK_OAK_VERTICAL_SLAB);
-                    entries.accept( ModItems.PALE_MOSSY_MANGROVE_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_CHERRY_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_PALE_OAK_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_BAMBOO_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_CRIMSON_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_WARPED_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_STONE_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_TUFF_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
-                    entries.accept(ModItems.PALE_MOSSY_BRICK_VERTICAL_SLAB);
                 })
                 .build();
 

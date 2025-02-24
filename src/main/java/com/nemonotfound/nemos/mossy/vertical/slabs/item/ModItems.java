@@ -16,7 +16,6 @@ public class ModItems {
     public static final Item MOSSY_DARK_OAK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_DARK_OAK_VERTICAL_SLAB);
     public static final Item MOSSY_MANGROVE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_MANGROVE_VERTICAL_SLAB);
     public static final Item MOSSY_CHERRY_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_CHERRY_VERTICAL_SLAB);
-    public static final Item MOSSY_PALE_OAK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_PALE_OAK_VERTICAL_SLAB);
     public static final Item MOSSY_BAMBOO_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_BAMBOO_VERTICAL_SLAB);
     public static final Item MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
     public static final Item MOSSY_CRIMSON_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_CRIMSON_VERTICAL_SLAB);
@@ -28,26 +27,6 @@ public class ModItems {
     public static final Item MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
     public static final Item MOSSY_TUFF_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_TUFF_VERTICAL_SLAB);
     public static final Item MOSSY_TUFF_BRICK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.MOSSY_TUFF_BRICK_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_OAK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_OAK_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_SPRUCE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_SPRUCE_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_BIRCH_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_BIRCH_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_JUNGLE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_JUNGLE_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_ACACIA_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_ACACIA_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_DARK_OAK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_DARK_OAK_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_MANGROVE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_MANGROVE_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_CHERRY_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_CHERRY_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_PALE_OAK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_PALE_OAK_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_BAMBOO_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_BAMBOO_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_CRIMSON_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_CRIMSON_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_WARPED_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_WARPED_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_STONE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_STONE_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_BRICK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_BRICK_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_TUFF_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_TUFF_VERTICAL_SLAB);
-    public static final Item PALE_MOSSY_TUFF_BRICK_VERTICAL_SLAB = Items.registerBlock(ModBlocks.PALE_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
 
     public static void registerItems() {
         log.info("Registering items");

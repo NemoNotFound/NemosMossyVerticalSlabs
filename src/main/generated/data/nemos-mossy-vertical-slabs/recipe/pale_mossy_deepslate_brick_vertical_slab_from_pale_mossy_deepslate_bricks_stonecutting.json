@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "nemos-mossy-blocks:pale_mossy_deepslate_bricks",
-  "result": {
-    "count": 2,
-    "id": "nemos-mossy-vertical-slabs:pale_mossy_deepslate_brick_vertical_slab"
-  }
-}

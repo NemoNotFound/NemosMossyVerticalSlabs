@@ -3,7 +3,9 @@
   "category": "building",
   "group": "wooden_mossy_vertical_slabs",
   "key": {
-    "#": "nemos-mossy-blocks:mossy_crimson_planks"
+    "#": {
+      "item": "nemos-mossy-blocks:mossy_crimson_planks"
+    }
   },
   "pattern": [
     "#",

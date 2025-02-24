@@ -1,8 +1,0 @@
-{
-  "parent": "nemos-vertical-slabs:block/parent/vertical_slab",
-  "textures": {
-    "bottom": "nemos-mossy-blocks:block/pale_mossy_cherry_planks",
-    "side": "nemos-mossy-blocks:block/pale_mossy_cherry_planks",
-    "top": "nemos-mossy-blocks:block/pale_mossy_cherry_planks"
-  }
-}

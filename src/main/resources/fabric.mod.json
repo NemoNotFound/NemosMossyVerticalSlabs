@@ -26,14 +26,14 @@
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.16.9",
+		"fabricloader": ">=0.16.10",
 		"minecraft": [
-			"~1.21.4"
+			"~1.21.1"
 		],
 		"java": ">=21",
 		"fabric-api": "*",
-		"nemos-vertical-slabs": ">=1.21.4-1.2.2",
-		"nemos-mossy-blocks": ">=1.7.1-1.21.4"
+		"nemos-vertical-slabs": ">=1.21.1-1.2.2",
+		"nemos-mossy-blocks": ">=1.6-1.21.1"
 	},
 	"suggests": {
 		"another-mod": "*"
