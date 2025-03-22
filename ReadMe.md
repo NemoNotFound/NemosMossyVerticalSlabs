@@ -1,21 +1,8 @@
-![Nemo's Vertical Slabs](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/png/nemos-mossy-vertical-slabs.png?raw=true)
+![Nemo's Vertical Slabs](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/icons/png/nemos_mossy_vertical_slabs.png?raw=true)
 <br><br>
 
 # Description
 Nemo's Mossy Vertical Slabs is an add-on for [Nemo's Vertical Slabs](https://curseforge.com/minecraft/mc-mods/nemos-vertical-slabs) and adds mossy vertical slabs for the blocks from [Nemo's Mossy Blocks](https://curseforge.com/minecraft/mc-mods/nemos-mossy-blocks). <br>
-
-[![Join my Discord](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/svg/join_discord_button.svg?raw=true)](https://discord.com/invite/yxs9dga)
-<br>
-<br>
-
-I love to create mods for Minecraft and wish to live off it one day, so I hope you like what I do. <br>
-Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosMossyVerticalSlabs/discussions/) :)
-<br>
-For more information and the recipes check the [wiki](https://www.nemonotfound.com/minecraft-mods/nemos-mossy-vertical-slabs/wiki).
-
-[![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nemonotfound)
-<br>
-<br>
 
 # Downloads
 - [CurseForge](https://curseforge.com/minecraft/mc-mods/nemos-mossy-vertical-slabs)
@@ -27,6 +14,20 @@ For more information and the recipes check the [wiki](https://www.nemonotfound.c
 This mod requires following mods to run:
 - [Nemo's Vertical Slabs](https://curseforge.com/minecraft/mc-mods/nemos-vertical-slabs)
 - [Nemo's Mossy Blocks](https://curseforge.com/minecraft/mc-mods/nemos-mossy-blocks)
+<br>
+<br>
+
+# Join my Discord!
+[![Join my Discord](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/svg/join_discord_button.svg?raw=true)](https://discord.com/invite/yxs9dga)
+<br>
+<br>
+
+# Support Me
+I love to create mods for Minecraft and wish to live off it one day, so I hope you like what I do. <br>
+Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosMossyVerticalSlabs/discussions/) :)
+<br><br>
+
+[![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nemonotfound)
 <br>
 <br>
 
