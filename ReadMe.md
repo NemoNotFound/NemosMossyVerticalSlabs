@@ -1,4 +1,4 @@
-![Nemo's Vertical Slabs](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/icons/png/nemos_mossy_vertical_slabs.png?raw=true)
+![Nemo's Vertical Slabs](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/nemos_mossy_vertical_slabs.png?raw=true)
 <br><br>
 
 # Description
