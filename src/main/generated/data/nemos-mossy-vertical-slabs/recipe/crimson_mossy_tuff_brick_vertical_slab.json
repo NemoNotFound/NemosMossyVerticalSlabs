@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "nemos-mossy-blocks:crimson_mossy_tuff_bricks"
+  },
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos-mossy-vertical-slabs:crimson_mossy_tuff_brick_vertical_slab"
+  }
+}

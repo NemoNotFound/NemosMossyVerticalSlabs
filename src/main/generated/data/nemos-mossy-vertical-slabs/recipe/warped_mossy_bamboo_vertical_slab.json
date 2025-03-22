@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_mossy_vertical_slabs",
+  "key": {
+    "#": "nemos-mossy-blocks:warped_mossy_bamboo_planks"
+  },
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos-mossy-vertical-slabs:warped_mossy_bamboo_vertical_slab"
+  }
+}

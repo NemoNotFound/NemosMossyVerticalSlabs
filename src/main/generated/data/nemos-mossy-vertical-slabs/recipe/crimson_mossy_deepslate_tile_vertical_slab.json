@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "nemos-mossy-blocks:crimson_mossy_deepslate_tiles"
+  },
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos-mossy-vertical-slabs:crimson_mossy_deepslate_tile_vertical_slab"
+  }
+}

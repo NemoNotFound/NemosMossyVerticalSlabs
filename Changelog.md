@@ -1,4 +1,5 @@
-# Changelog v1.2.1
+# Changelog v1.3
 
-## Changes
-- Added compatibility to latest vertical slabs versions
+## Additions
+- Added crimson-mossy vertical slabs
+- Added warped-mossy vertical slabs

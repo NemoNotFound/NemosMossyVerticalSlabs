@@ -8,7 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-import static com.nemonotfound.nemosmossyblocks.NemosMossyBlocks.MOD_ID;
+import static com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabs.MOD_ID;
 import static com.nemonotfound.nemos.mossy.vertical.slabs.NemosMossyVerticalSlabs.log;
 
 public class ModCreativeModeTabs {
@@ -30,7 +30,7 @@ public class ModCreativeModeTabs {
                     entries.accept(ModItems.MOSSY_JUNGLE_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_ACACIA_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_DARK_OAK_VERTICAL_SLAB);
-                    entries.accept( ModItems.MOSSY_MANGROVE_VERTICAL_SLAB);
+                    entries.accept(ModItems.MOSSY_MANGROVE_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_CHERRY_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_PALE_OAK_VERTICAL_SLAB);
                     entries.accept(ModItems.MOSSY_BAMBOO_VERTICAL_SLAB);
@@ -50,7 +50,7 @@ public class ModCreativeModeTabs {
                     entries.accept(ModItems.PALE_MOSSY_JUNGLE_VERTICAL_SLAB);
                     entries.accept(ModItems.PALE_MOSSY_ACACIA_VERTICAL_SLAB);
                     entries.accept(ModItems.PALE_MOSSY_DARK_OAK_VERTICAL_SLAB);
-                    entries.accept( ModItems.PALE_MOSSY_MANGROVE_VERTICAL_SLAB);
+                    entries.accept(ModItems.PALE_MOSSY_MANGROVE_VERTICAL_SLAB);
                     entries.accept(ModItems.PALE_MOSSY_CHERRY_VERTICAL_SLAB);
                     entries.accept(ModItems.PALE_MOSSY_PALE_OAK_VERTICAL_SLAB);
                     entries.accept(ModItems.PALE_MOSSY_BAMBOO_VERTICAL_SLAB);
@@ -64,6 +64,46 @@ public class ModCreativeModeTabs {
                     entries.accept(ModItems.PALE_MOSSY_TUFF_VERTICAL_SLAB);
                     entries.accept(ModItems.PALE_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
                     entries.accept(ModItems.PALE_MOSSY_BRICK_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_OAK_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_SPRUCE_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_BIRCH_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_JUNGLE_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_ACACIA_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_DARK_OAK_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_MANGROVE_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_CHERRY_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_PALE_OAK_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_BAMBOO_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_CRIMSON_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_WARPED_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_STONE_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_TUFF_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
+                    entries.accept(ModItems.CRIMSON_MOSSY_BRICK_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_OAK_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_SPRUCE_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_BIRCH_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_JUNGLE_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_ACACIA_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_DARK_OAK_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_MANGROVE_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_CHERRY_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_PALE_OAK_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_BAMBOO_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_CRIMSON_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_WARPED_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_STONE_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_TUFF_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
+                    entries.accept(ModItems.WARPED_MOSSY_BRICK_VERTICAL_SLAB);
                 })
                 .build();
 

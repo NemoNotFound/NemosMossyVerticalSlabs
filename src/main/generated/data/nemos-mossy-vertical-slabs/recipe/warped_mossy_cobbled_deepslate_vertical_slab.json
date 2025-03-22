@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "nemos-mossy-blocks:warped_mossy_cobbled_deepslate"
+  },
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos-mossy-vertical-slabs:warped_mossy_cobbled_deepslate_vertical_slab"
+  }
+}

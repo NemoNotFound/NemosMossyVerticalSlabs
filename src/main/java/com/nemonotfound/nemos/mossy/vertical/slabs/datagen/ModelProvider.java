@@ -14,7 +14,7 @@ import net.minecraft.client.data.models.model.TextureSlot;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 
-import static com.nemonotfound.nemosmossyblocks.block.ModBlocks.*;
+import static com.nemonotfound.nemos.mossy.blocks.block.Blocks.*;
 
 public class ModelProvider extends FabricModelProvider {
 
@@ -64,6 +64,46 @@ public class ModelProvider extends FabricModelProvider {
         generateVerticalSlabBlockModel(blockModelGenerators, PALE_MOSSY_TUFF, ModBlocks.PALE_MOSSY_TUFF_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockModelGenerators, PALE_MOSSY_TUFF_BRICKS, ModBlocks.PALE_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockModelGenerators, PALE_MOSSY_BRICKS, ModBlocks.PALE_MOSSY_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_OAK_PLANKS, ModBlocks.CRIMSON_MOSSY_OAK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_SPRUCE_PLANKS, ModBlocks.CRIMSON_MOSSY_SPRUCE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_BIRCH_PLANKS, ModBlocks.CRIMSON_MOSSY_BIRCH_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_JUNGLE_PLANKS, ModBlocks.CRIMSON_MOSSY_JUNGLE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_ACACIA_PLANKS, ModBlocks.CRIMSON_MOSSY_ACACIA_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_DARK_OAK_PLANKS, ModBlocks.CRIMSON_MOSSY_DARK_OAK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_MANGROVE_PLANKS, ModBlocks.CRIMSON_MOSSY_MANGROVE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_CHERRY_PLANKS, ModBlocks.CRIMSON_MOSSY_CHERRY_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_PALE_OAK_PLANKS, ModBlocks.CRIMSON_MOSSY_PALE_OAK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_BAMBOO_PLANKS, ModBlocks.CRIMSON_MOSSY_BAMBOO_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_BAMBOO_MOSAIC, ModBlocks.CRIMSON_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_CRIMSON_PLANKS, ModBlocks.CRIMSON_MOSSY_CRIMSON_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_WARPED_PLANKS, ModBlocks.CRIMSON_MOSSY_WARPED_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_STONE, ModBlocks.CRIMSON_MOSSY_STONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_COBBLED_DEEPSLATE, ModBlocks.CRIMSON_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_DEEPSLATE_BRICKS, ModBlocks.CRIMSON_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_DEEPSLATE_TILES, ModBlocks.CRIMSON_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_TUFF, ModBlocks.CRIMSON_MOSSY_TUFF_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_TUFF_BRICKS, ModBlocks.CRIMSON_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, CRIMSON_MOSSY_BRICKS, ModBlocks.CRIMSON_MOSSY_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_OAK_PLANKS, ModBlocks.WARPED_MOSSY_OAK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_SPRUCE_PLANKS, ModBlocks.WARPED_MOSSY_SPRUCE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_BIRCH_PLANKS, ModBlocks.WARPED_MOSSY_BIRCH_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_JUNGLE_PLANKS, ModBlocks.WARPED_MOSSY_JUNGLE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_ACACIA_PLANKS, ModBlocks.WARPED_MOSSY_ACACIA_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_DARK_OAK_PLANKS, ModBlocks.WARPED_MOSSY_DARK_OAK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_MANGROVE_PLANKS, ModBlocks.WARPED_MOSSY_MANGROVE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_CHERRY_PLANKS, ModBlocks.WARPED_MOSSY_CHERRY_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_PALE_OAK_PLANKS, ModBlocks.WARPED_MOSSY_PALE_OAK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_BAMBOO_PLANKS, ModBlocks.WARPED_MOSSY_BAMBOO_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_BAMBOO_MOSAIC, ModBlocks.WARPED_MOSSY_BAMBOO_MOSAIC_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_CRIMSON_PLANKS, ModBlocks.WARPED_MOSSY_CRIMSON_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_WARPED_PLANKS, ModBlocks.WARPED_MOSSY_WARPED_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_STONE, ModBlocks.WARPED_MOSSY_STONE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_COBBLED_DEEPSLATE, ModBlocks.WARPED_MOSSY_COBBLED_DEEPSLATE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_DEEPSLATE_BRICKS, ModBlocks.WARPED_MOSSY_DEEPSLATE_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_DEEPSLATE_TILES, ModBlocks.WARPED_MOSSY_DEEPSLATE_TILE_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_TUFF, ModBlocks.WARPED_MOSSY_TUFF_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_TUFF_BRICKS, ModBlocks.WARPED_MOSSY_TUFF_BRICK_VERTICAL_SLAB);
+        generateVerticalSlabBlockModel(blockModelGenerators, WARPED_MOSSY_BRICKS, ModBlocks.WARPED_MOSSY_BRICK_VERTICAL_SLAB);
     }
 
     @Override
