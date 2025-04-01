@@ -8,13 +8,16 @@ import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
-import net.minecraft.client.data.models.blockstates.*;
+import net.minecraft.client.data.models.MultiVariant;
+import net.minecraft.client.data.models.blockstates.BlockModelDefinitionGenerator;
+import net.minecraft.client.data.models.blockstates.MultiVariantGenerator;
+import net.minecraft.client.data.models.blockstates.PropertyDispatch;
 import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.data.models.model.TextureSlot;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 
 import static com.nemonotfound.nemos.mossy.blocks.block.Blocks.*;
+import static net.minecraft.client.data.models.BlockModelGenerators.plainVariant;
 
 public class ModelProvider extends FabricModelProvider {
 
@@ -120,24 +123,25 @@ public class ModelProvider extends FabricModelProvider {
     }
 
     private void generateVerticalSlabBlockModel(BlockModelGenerators blockModelGenerators, TextureMapping textureMapping, Block fullBlock, Block block) {
-        ResourceLocation modelId = ModModels.VERTICAL_SLAB.create(block, textureMapping, blockModelGenerators.modelOutput);
-        ResourceLocation leftModelId = ModModels.VERTICAL_SLAB_LEFT.createWithSuffix(block, "_left", textureMapping, blockModelGenerators.modelOutput);
-        ResourceLocation rightModelId = ModModels.VERTICAL_SLAB_RIGHT.createWithSuffix(block, "_right", textureMapping, blockModelGenerators.modelOutput);
-        ResourceLocation backModelId = ModModels.VERTICAL_SLAB_BACK.createWithSuffix(block, "_back", textureMapping, blockModelGenerators.modelOutput);
+        var multiVariant = plainVariant(ModModels.VERTICAL_SLAB.create(block, textureMapping, blockModelGenerators.modelOutput));
+        var leftMultiVariant = plainVariant(ModModels.VERTICAL_SLAB_LEFT.createWithSuffix(block, "_left", textureMapping, blockModelGenerators.modelOutput));
+        var rightMultiVariant = plainVariant(ModModels.VERTICAL_SLAB_RIGHT.createWithSuffix(block, "_right", textureMapping, blockModelGenerators.modelOutput));
+        var backMultiVariant = plainVariant(ModModels.VERTICAL_SLAB_BACK.createWithSuffix(block, "_back", textureMapping, blockModelGenerators.modelOutput));
+        var fullMultiVariant = plainVariant(TextureMapping.getBlockTexture(fullBlock));
 
-        blockModelGenerators.blockStateOutput.accept(createVerticalSlabBlockState(block, modelId, leftModelId, rightModelId, backModelId, TextureMapping.getBlockTexture(fullBlock)));
+        blockModelGenerators.blockStateOutput.accept(createVerticalSlabBlockState(block, multiVariant, leftMultiVariant, rightMultiVariant, backMultiVariant, fullMultiVariant));
     }
 
-    public static BlockStateGenerator createVerticalSlabBlockState(Block verticalSlabBlock, ResourceLocation modelId,
-                                                                   ResourceLocation leftModelId, ResourceLocation rightModelId,
-                                                                   ResourceLocation backModelId, ResourceLocation fullModelId) {
-        return MultiVariantGenerator.multiVariant(verticalSlabBlock)
-                .with(PropertyDispatch.property(ModProperties.VERTICAL_SLAB_TYPE)
-                        .select(VerticalSlabType.FRONT, Variant.variant().with(VariantProperties.MODEL, modelId))
-                        .select(VerticalSlabType.LEFT, Variant.variant().with(VariantProperties.MODEL, leftModelId))
-                        .select(VerticalSlabType.RIGHT, Variant.variant().with(VariantProperties.MODEL, rightModelId))
-                        .select(VerticalSlabType.BACK, Variant.variant().with(VariantProperties.MODEL, backModelId))
-                        .select(VerticalSlabType.DOUBLE, Variant.variant().with(VariantProperties.MODEL, fullModelId))
+    public static BlockModelDefinitionGenerator createVerticalSlabBlockState(Block verticalSlabBlock, MultiVariant multiVariant,
+                                                                             MultiVariant leftMultiVariant, MultiVariant rightMultiVariant,
+                                                                             MultiVariant backMultiVariant, MultiVariant fullMultiVariant) {
+        return MultiVariantGenerator.dispatch(verticalSlabBlock)
+                .with(PropertyDispatch.initial(ModProperties.VERTICAL_SLAB_TYPE)
+                        .select(VerticalSlabType.FRONT, multiVariant)
+                        .select(VerticalSlabType.LEFT, leftMultiVariant)
+                        .select(VerticalSlabType.RIGHT, rightMultiVariant)
+                        .select(VerticalSlabType.BACK, backMultiVariant)
+                        .select(VerticalSlabType.DOUBLE, fullMultiVariant)
                 );
     }
 }
